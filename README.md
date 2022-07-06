@@ -18,7 +18,7 @@ Write the code for recallName(Student s) to use a **for-loop** do the following:
 If the Student's name and ID match the name and ID of one of the students in the remembered Array, return the Student's name.
 If it isn't in the array or if you have reached a null entry, return "Er...You"
 ```
-**Don't forget to include an if statement that checks for the null, otherwise your program will crash**
+**Don't forget to include an if statement that checks for the null, otherwise your program will error**
 
 For example, if someone calls
 ```java
