@@ -22,17 +22,24 @@ If it isn't in the array or if you have reached a null entry, return "Er...You"
 
 For example, if someone calls
 ```java
-
+  Teacher Steven = new Teacher("src/Students.txt", "src/Memorable.txt");
+  Student Jacob = new Student("Jacob", 679);
+  Student Adeline = new Student("Adeline", 276);
+  Steven.recallName(Jacob);   //Would return "Er...You"
+  Steven.recallName(Adeline);   //Would return "Adeline"
 ```
 
-# Step Three: Test [()]
+# Step Three: Test recallName(Student s)
 How do you test code? You simply add the lines to your java file (in the future, you will have test lines in separate files).
 
 As such, we would recommend adding the following in main().
 
 ```java
-System.out.println("TESTING: " + [()])
-System.out.println("TESTING: " + [()])
+Teacher Steven = new Teacher("src/Students.txt", "src/Memorable.txt");
+        Student Jacob = new Student("Jacob", 679);
+        Student Adeline = new Student("Adeline", 276);
+        System.out.println("TESTING " + Steven.recallName(Jacob));
+        System.out.println("TESTING " + Steven.recallName(Adeline));
 ```
 Also add your own tests!
 
@@ -40,5 +47,9 @@ Also add your own tests!
 Make sure to submit the assignment for grading! If you haven't clicked through the canvas link in a while, we would suggest clicking through it again before submitting.
 
 # Reminder on Arrays
+Arrays are containers with a set size. Think if them as drawers. You can't just magically make a drawer bigger or smaller once you've made it, it won't fit anymore.
+Also, because Arrays have a set size, any entry that doesn't have anything in it will have a "null" entry. Because of this, we have to be careful to not directly try
+to read our null entry or we may get some undefined behavior or an error.
 
 # Reminder on ArrayLists
+ArrayLists are containers without set sizes. Think of them as bricks. Need a longer wall? Simply add more bricks--your ArrayList will resize to fit everything.
