@@ -12,7 +12,7 @@ Answer the following questions as comments in your code:
 4. What is the type in Python that most closely resembles an ArrayList?
 
 # Step Two: Coding: recallName(Student s)
-As a teacher with likely over 100 students, it's nearly impossible to remember all of their names. Find the method `recallName(Student s)`. 
+As your teacher class has an ArrayList of likely over 100 students, it's nearly impossible to remember all of their names. Find the method `recallName(Student s)`. 
 Write the code for recallName(Student s) to use a **for-loop** do the following:
 ```
 If the Student's name and ID match the name and ID of one of the students in the remembered Array, return the Student's name.
