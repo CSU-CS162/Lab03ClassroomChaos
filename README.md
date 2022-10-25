@@ -7,7 +7,7 @@ Review the code provided. Answer the following questions by adding comments to y
 # Step One
 Answer the following questions as comments in your code:
 1. Why might you want to use an Array instead of an ArrayList?
-2. When might our Array not be useful? – need to fill it with more entries, may have way less entries
+2. When might our Array not be useful?
 3. What might we want to use an ArrayList for that we can’t use an Array for?
 4. What is the type in Python that most closely resembles an ArrayList?
 
