@@ -22,7 +22,7 @@ If it isn't in the array or if you have reached a null entry, return "Er...You"
 
 For example, if someone calls
 ```java
-  Teacher Steven = new Teacher("src/Students.txt", "src/Memorable.txt");
+  Teacher Steven = new Teacher("Students.txt", "Memorable.txt");
   Student Jacob = new Student("Jacob", 679);
   Student Adeline = new Student("Adeline", 276);
   Steven.recallName(Jacob);   //Would return "Er...You"
