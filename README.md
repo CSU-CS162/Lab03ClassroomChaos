@@ -35,7 +35,7 @@ How do you test code? You simply add the lines to your java file (in the future,
 As such, we would recommend adding the following in main().
 
 ```java
-Teacher Steven = new Teacher("src/Students.txt", "src/Memorable.txt");
+Teacher Steven = new Teacher("Students.txt", "Memorable.txt");
         Student Jacob = new Student("Jacob", 679);
         Student Adeline = new Student("Adeline", 276);
         System.out.println("TESTING " + Steven.recallName(Jacob));
