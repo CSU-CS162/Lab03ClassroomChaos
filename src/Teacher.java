@@ -14,7 +14,7 @@ public class Teacher {
             // with known students to fill its Array and ArrayList
             Scanner stu = new Scanner(new File(studentFile));
             Scanner know = new Scanner(new File(knownFile));
-            while(stu.hasNextLine()){
+            while(stu.hasNext()){
                 String name = stu.next();
                 int ID = Integer.parseInt(stu.next());
                 students.add(new Student(name, ID));
@@ -50,6 +50,6 @@ public class Teacher {
     }
 
     public static void main(String[] args){
-        Teacher Steven = new Teacher("src/Students.txt", "src/Memorable.txt");
+        Teacher Steven = new Teacher("Students.txt", "Memorable.txt");
     }
 }
